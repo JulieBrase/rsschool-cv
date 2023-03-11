@@ -1,1 +1,1 @@
-# rsschool-cv
+https://juliebrase.github.io/rsschool-cv/cv
