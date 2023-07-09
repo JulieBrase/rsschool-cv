@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ysabeau Infant", sans-serif;
+}
+
+body {
+  background-color: #ffff99;
+}
+
+.main {
+  width: 1000px;
+  height: 1500px;
+  box-shadow: 0 0 10px 3px #00382b;
+  margin: 30px auto;
+  display: flex;
+}
+
+.left {
+  width: 40%;
+  padding: 15px;
+  background-color: #00382b;
+  color: white;
+}
+
+.left-h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contacts {
+  margin-bottom: 60px;
+}
+
+.photo {
+  display: block;
+  width: 300px;
+  border-radius: 50em;
+  margin: 30px auto 60px auto;
+  box-shadow: 15px 15px 5px 1px #ffff99;
+}
+
+.li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.left-a {
+  font-size: 25px;
+  padding-left: 50px;
+}
+
+.fa {
+  color: #ffff99;
+  margin-right: 10px;
+}
+
+.charts {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.chart-photo {
+  width: 120px;
+}
+
+.chart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.skills {
+  text-align: center;
+}
+
+.right {
+  background-color: white;
+  width: 60%;
+  padding: 0 30px;
+}
+
+.header {
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.h1 {
+  font-size: 80px;
+}
+
+.right-information {
+  padding: 0 15px;
+  margin-bottom: 60px;
+}
+
+.right-h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.content {
+  font-size: 20px;
+}
+
+.english {
+  text-shadow: 0 0 3px #ffff99;
+}
+
+.footer {
+  margin: 0 auto 30px auto;
+  width: 1000px;
+  padding: 30px;
+  font-size: 30px;
+}
+.footer-ul {
+  color: grey;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-li {
+  margin-right: 20px;
+}
+
+.footer-github {
+  color: grey;
+}
+
+.footer-img {
+  width: 80px;
+}
